@@ -1,0 +1,44 @@
+{
+    "variables" : {
+        "region" : "us-east-1"
+    },
+    "builders" : [
+        {
+            "type" : "amazon-ebs",
+            "profile" : "default",
+            "region" : "{{user `region`}}",
+            "instance_type" : "t2.xlarge",
+            "source_ami" : "ami-759bc50a",
+            "ssh_username" : "ubuntu",
+            "ami_name" : "elk-stack-6.2.4",
+            "ami_description" : "ELK Stack",
+            "run_tags" : {
+                "Name" : "packer-builder-docker",
+                "Tool" : "Packer",
+                "Author" : "mlabouardy"
+            }
+        }
+    ],
+    "provisioners" : [
+        {
+            "type" : "file",
+            "source" : "./elasticsearch.yml",
+            "destination" : "/tmp/elasticsearch.yml"
+        },
+        {
+            "type" : "file",
+            "source" : "./cloudtrail.conf",
+            "destination" : "/tmp/cloudtrail.conf"
+        },
+        {
+            "type" : "file",
+            "source" : "./kibana.yml",
+            "destination" : "/tmp/kibana.yml"
+        },
+        {
+            "type" : "shell",
+            "script" : "./setup.sh",
+            "execute_command" : "sudo -E -S sh '{{ .Path }}'"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "0d9a12d0-9181-11e8-a3f9-957d8f12fbcf",
+    "_type": "dashboard",
+    "_source": {
+      "title": "CloudTrail",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":3,\"i\":\"1\"},\"id\":\"006dba80-9181-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":9,\"w\":6,\"h\":3,\"i\":\"2\"},\"id\":\"62202550-9182-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"3\"},\"id\":\"f6a785b0-9182-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":12,\"w\":6,\"h\":3,\"i\":\"4\"},\"id\":\"1508c640-9183-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"5\"},\"id\":\"064bbbd0-9183-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":6,\"y\":12,\"w\":6,\"h\":3,\"i\":\"6\"},\"id\":\"19c372b0-9184-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":6,\"y\":9,\"w\":6,\"h\":3,\"i\":\"7\"},\"id\":\"e276c4c0-9191-11e8-a3f9-957d8f12fbcf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":6,\"i\":\"8\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"bdfae6b0-919d-11e8-a3f9-957d8f12fbcf\",\"embeddableConfig\":{\"mapZoom\":2,\"mapCenter\":[18.97902595325528,-36.56250000000001]}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
